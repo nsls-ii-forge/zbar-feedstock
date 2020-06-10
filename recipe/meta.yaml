@@ -21,9 +21,9 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - libjpeg-turbo
+    - jpeg
   run:
-    - libjpeg-turbo
+    - jpeg
 
 test:
   commands:
